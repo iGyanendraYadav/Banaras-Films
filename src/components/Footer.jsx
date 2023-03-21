@@ -49,7 +49,8 @@ const Footer = () => {
 
            
 
-            <div className="flex flex-row justify-center items-center space-x-5 lg:space-x-8 pt-5 lg:pt-5 pb-5 lg:pb-10">
+            <div className="grid grid-cols-3 gap-4 lg:grid-cols-6 lg:gap-8 pt-5 lg:pt-5 pb-5 lg:pb-10">
+            {/* <div className="flex flex-row justify-center items-center space-x-5 lg:space-x-8 pt-5 lg:pt-5 pb-5 lg:pb-10"> */}
               <a href="mailto:FILMSBANARAS24X7@gmail.com">
                 <button className=" border border-gray-300 p-2 lg:p-3 rounded-full bg-gray-200 dark:bg-gray-800 ">
                   <span className="text-3xl lg:text-5xl">
@@ -174,7 +175,13 @@ const Footer = () => {
         <div className=" flex flex-col lg:flex-row justify-center items-center mx-12 lg:mx-16 space-x-1 lg:space-x-8">
           <span>All rights reserved.  © 2023</span>
          
-          <span>Designed by Gyanendra</span>
+          
+          <a
+                href="https://www.gyanindra.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><span>Designed by Gyanendra</span>
+              </a>
         </div>
       </div>
     </>

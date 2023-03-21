@@ -38,7 +38,7 @@ const Home = () => {
         </div>
 
         {/* The Carousel */}
-        <div className=" py-0 mx-5 lg:mx-16 transition-all ease-linear duration-500 lg:pb-10">
+        <div className=" py-0 mx-1 lg:mx-16 transition-all ease-linear duration-500 lg:pb-10">
         {/* <div className=" py-0 m-0  transition-all ease-linear duration-500"> */}
           {/* Carousel */}
           <CarouselProvider

@@ -2,6 +2,7 @@ import React from 'react'
 import { BiPhotoAlbum, BiMoviePlay, BiEditAlt, BiFilm } from "react-icons/bi";
 import { MdDoneAll } from "react-icons/md";
 import { GiDeliveryDrone } from "react-icons/gi";
+import { CgMediaLive } from "react-icons/cg";
 import { TbDrone, TbCapture } from "react-icons/tb";
 import { useDocumentTitle } from "../components/hooks/hooks";
 import { slideIn, staggerContainer, textVariant2 } from './data/motions';
@@ -35,7 +36,7 @@ const Services = () => {
 className="container mx-auto">
     <div
     
-     className="grid grid-cols-1 lg:grid-cols-1 gap-[2px] mx-12 lg:mx-16 py-5  ">
+     className="grid grid-cols-1 lg:grid-cols-1 gap-[2px] mx-8 lg:mx-16 py-5  ">
     <div  className="basic p-5  rounded-lg flex flex-col justify-center items-start ">
       <div className="flex justify-start items-center space-x-2">
         <span className='text-3xl md:text-3xl lg:text-3xl '><BiMoviePlay/></span>
@@ -96,10 +97,10 @@ className="container mx-auto">
 
       <div className="basic p-5  rounded-lg flex flex-col justify-center items-start ">
       <div className="flex justify-start items-center space-x-2">
-    <span className='text-3xl md:text-3xl lg:text-3xl '><TbDrone/></span>
-        <h2 className='text-2xl md:text-2xl lg:text-3xl py-0 lg:py-1 font-bold '>Temporary</h2>
+    <span className='text-3xl md:text-3xl lg:text-3xl '><CgMediaLive/></span>
+        <h2 className='text-2xl md:text-2xl lg:text-3xl py-0 lg:py-1 font-bold '>Live Telecast</h2>
     </div>
-        <p className='my-1 text-lg lg:text-xl'>We use CRANE CAMERA to show the audience where the upcoming scene will take place. Using a crane for these shots allows us to capture large sets, massive crowds, and dramatic landscapes. <br/> We also use it for LIVE TELECAST at the events.</p>
+        <p className='my-1 text-lg lg:text-xl'>Since, we have made a promise to keep your Tilak, Shaadi program visually awesome. <br/>So, We do LIVE TELECAST on four 50 Inch 4K TVs as well as on a BIG LED WALL too. </p>
       </div>
 
 

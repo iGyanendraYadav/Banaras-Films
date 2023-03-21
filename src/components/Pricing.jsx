@@ -24,8 +24,8 @@ const Pricing = () => {
       <h2 className='text-base lg:text-xl'>Check the below plans and choose yourself.</h2>
 
       <div className="flex flex-col justify-start items-start">
-      <span className='flex flex-row justify-center items-center space-x-2'><span className='text-2xl text-green-500'><AiFillCheckCircle/></span><span> : Specified Feature is INCLUDED in plan.</span></span>
-          <span className='flex flex-row justify-center items-center space-x-2'><span className='text-2xl text-red-500'><AiFillCloseCircle/></span><span> : Specified Feature is NOT INCLUDED in plan.</span></span>
+      <span className='flex flex-row justify-center items-center space-x-2'><span className='text-2xl text-green-500'><AiFillCheckCircle/></span><span> : INCLUDED in the plan.</span></span>
+          <span className='flex flex-row justify-center items-center space-x-2'><span className='text-2xl text-red-500'><AiFillCloseCircle/></span><span> : NOT INCLUDED in the plan.</span></span>
       </div>
     </div>
 

@@ -184,7 +184,7 @@ const About = () => {
               <span className="text-3xl lg:text-5xl">
                 <TbListCheck />
               </span>
-              <span className="text-3xl">Feel Fully Prepared</span>
+              <span className="text-3xl">Feel Prepared</span>
               <span className="">
                 We’ll work with you to craft a wedding film timeline to ensure
                 we capture the moments important to you.
@@ -371,11 +371,11 @@ const About = () => {
                   </motion.div>
 
                   <motion.div variants={theOpacity(0.8,1)} className="flex flex-col justify-center items-center space-y-2 p-5 text-gray-600 bg-white dark:text-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
-                        <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-red-600" />
+                        <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-yellow-600" />
                         <span>Ajay Yadav</span>
                         <span>Cinematographer</span>
                    
-                        <span className="flex flex-row justify-center items-center space-x-2 text-white">
+                        {/* <span className="flex flex-row justify-center items-center space-x-2 text-white">
                        
                             <button onClick={()=>handleCopyText("Not Allowed to Take Number of Ajay")} className="p-2 bg-blue-500 hover:bg-blue-600 rounded-full">
                                 <span className="text-3xl"><FiPhoneCall/></span>
@@ -401,17 +401,17 @@ const About = () => {
                           </a>
 
                     
-                        </span>
+                        </span> */}
 
                        
                        
                   </motion.div>
 
                   <motion.div variants={theOpacity(1,1)} className="flex flex-col justify-center items-center space-y-2 p-5 text-gray-600 bg-white dark:text-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
-                        <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-red-600" />
+                        <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-pink-600" />
                         <span>Akash Yadav</span>
                         <span>Cinematographer</span>
-                        <span className="flex flex-row justify-center items-center space-x-2 text-white">
+                        {/* <span className="flex flex-row justify-center items-center space-x-2 text-white">
                         
                             <button onClick={()=>handleCopyText("Baad Mein Batayenge")} className="p-2 bg-blue-500 hover:bg-blue-600 rounded-full">
                                 <span className="text-3xl"><FiPhoneCall/></span>
@@ -437,13 +437,13 @@ const About = () => {
                           </a>
 
                      
-                        </span>
+                        </span> */}
 
                        
                        
                   </motion.div>
 
-                  <motion.div variants={theOpacity(1.2,1)} className="flex flex-col justify-center items-center space-y-2 p-5 text-gray-600 bg-white dark:text-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
+                  {/* <motion.div variants={theOpacity(1.2,1)} className="flex flex-col justify-center items-center space-y-2 p-5 text-gray-600 bg-white dark:text-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
                         <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-red-600" />
                         <span>Testing Yadav</span>
                         <span>Cinematographer</span>
@@ -482,7 +482,7 @@ const About = () => {
 
                        
                        
-                  </motion.div>
+                  </motion.div> */}
 
                   {/* <div className="flex flex-col justify-center items-center space-y-2 p-5 text-gray-600 bg-white dark:text-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
                         <img src={hny} alt="HNY" className="rounded-full h-32 w-32 lg:h-40 lg:w-40 border-2 border-red-600" />

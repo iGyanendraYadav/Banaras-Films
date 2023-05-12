@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Review from "./components/Review";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
+        <ScrollToTop/>
       </Router>
     
     </>

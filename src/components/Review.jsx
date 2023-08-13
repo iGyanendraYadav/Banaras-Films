@@ -1,19 +1,22 @@
 import React from "react";
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 import Pankaj from "../images/pankaj.jpg";
 import Abhi from "../images/abhi.png";
 import Kushahiwale from "../images/kushahiwale.png";
 import Kushahiwale2 from "../images/kushahiwale2.png";
 import Virendra from "../images/virendra.jpg";
+import { takeMeToTheTop } from "./data/data";
 
 
 const Review = () => {
   useDocumentTitle("Review");
+  useTakeMeToTheTop();
+
   return (
     <>
-      <div className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins] pt-3 lg:pt-[14px]">
+      <div  className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins] pt-3 lg:pt-[14px]">
 
 
 {/* The Carousel */}

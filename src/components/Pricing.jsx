@@ -3,16 +3,19 @@ import { MdOutlineFeaturedPlayList } from 'react-icons/md';
 import { AiFillCheckCircle, AiFillCloseCircle, AiOutlineSetting, AiOutlineStar } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { FaFilm } from 'react-icons/fa';
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 import { fadeIn, staggerContainer, theOpacity } from './data/motions';
 import { motion } from 'framer-motion';
 
+
+
 const Pricing = () => {
   useDocumentTitle("Pricing");
+  useTakeMeToTheTop();
   return (
     <>
   <motion.div
-
+   
    className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins]">
     <div className="headline text-4xl md:text-5xl lg:text-7xl text-center p-12 lg:p-10 tracking-widest ">
       <span className='uppercase font-extrabold'>Pricing Plans</span>

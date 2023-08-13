@@ -2,16 +2,17 @@ import React from "react";
 import { GoCalendar } from "react-icons/go";
 import { MdOutlinePlace } from "react-icons/md";
 import { BsHeartFill } from "react-icons/bs";
-import { marriageSamples } from "../components/data/data";
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { marriageSamples, takeMeToTheTop } from "../components/data/data";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 
 const Sample = () => {
   useDocumentTitle("Sample");
+  useTakeMeToTheTop();
 
 
   return (
     <>
-      <div className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins]">
+      <div  className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins]">
         <div className="headline text-4xl md:text-5xl lg:text-7xl text-center p-12 lg:p-10 tracking-widest ">
           <span className="uppercase font-extrabold">Samples</span>
         </div>

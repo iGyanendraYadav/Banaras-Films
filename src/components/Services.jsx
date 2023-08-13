@@ -4,12 +4,14 @@ import { MdDoneAll } from "react-icons/md";
 import { GiDeliveryDrone } from "react-icons/gi";
 import { CgMediaLive } from "react-icons/cg";
 import { TbDrone, TbCapture } from "react-icons/tb";
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 import { slideIn, staggerContainer, textVariant2 } from './data/motions';
 import { motion } from 'framer-motion';
+import { takeMeToTheTop } from './data/data';
 
 const Services = () => {
   useDocumentTitle("Services");
+  useTakeMeToTheTop();
   return (
     <>
      <motion.div
@@ -18,7 +20,7 @@ const Services = () => {
          whileInView="show"
          viewport={{once: true, amount:0.10}}
 
-      className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins] overflow-x-hidden">
+     className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins] overflow-x-hidden">
      <div className="headline text-4xl md:text-5xl lg:text-7xl text-center p-12 lg:p-10 tracking-widest ">
       <span className='uppercase font-extrabold'>Our Services</span>
     </div>

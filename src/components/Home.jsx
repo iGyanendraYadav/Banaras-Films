@@ -8,18 +8,21 @@ import { TbDrone, TbTruckDelivery } from "react-icons/tb";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { Link } from "react-router-dom";
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 import { fadeIn, slideIn, staggerChildren, staggerContainer, zoomIn } from "../components/data/motions";
 import { animate, motion, } from "framer-motion"
+
 
 
 const Home = () => {
 
 
   useDocumentTitle("");
+  useTakeMeToTheTop();
   return (
     <>
       <div
+    
 
            className="text-gray-600 bg-white dark:bg-[#0b1121] dark:text-white font-[Poppins]">
         {/* Hero Section */}

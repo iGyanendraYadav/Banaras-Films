@@ -3,7 +3,7 @@ import emotional from "../images/emotional.jpg";
 import hny from "../images/hny.png";
 import santosh from "../images/sy.png";
 import saurabh from "../images/sy2.png";
-import { useDocumentTitle } from "../components/hooks/hooks";
+import { useDocumentTitle, useTakeMeToTheTop } from "../components/hooks/hooks";
 
 import {
   AiOutlineMail,
@@ -18,14 +18,17 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { TbListCheck, TbUserCheck } from "react-icons/tb";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { handleCopyText } from "../components/data/data"
+import { handleCopyText, takeMeToTheTop } from "../components/data/data"
 import { fadeIn, staggerContainer, theOpacity } from "./data/motions";
 import { motion } from "framer-motion";
 
 
 const About = () => {
 
+
+
   useDocumentTitle("About");
+  useTakeMeToTheTop();
   return (
     <>
 

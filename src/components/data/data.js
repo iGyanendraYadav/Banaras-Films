@@ -1,42 +1,41 @@
-import { useEffect } from "react";
 import { toast } from "react-toastify";
 
 export const marriageSamples = [
   {
-    groom: "Sundareshwar Iyyar",
-    bride: "Meenakshi Shetty",
+    groom: "Kanistha",
+    bride: "Saumya",
     year: 2019,
     videoId: "fAf_XpadCkk",
     place: "Madurai",
   },
 
   {
-    groom: "Rahul Singhania",
-    bride: "Jessica Philip",
+    groom: "Ishtmeet",
+    bride: "Jaspreet",
     year: 2022,
     videoId: "HQuogzrpda8",
-    place: "Jaipur",
+    place: "Jalandhar",
   },
 
   {
-    groom: "Manish Yadav",
-    bride: "Anupama Yadav",
+    groom: "Yaad",
+    bride: "Kiran",
     year: 2021,
     videoId: "pvAAaLXH8NY",
     place: "Varanasi",
   },
 
   {
-    groom: "Virendra Yadav",
-    bride: "Arundhati",
+    groom: "Manpreet",
+    bride: "Gurkanwal",
     year: 2022,
     videoId: "KV5BILORgq8",
     place: "Ghazipur",
   },
 
   {
-    groom: "Pankaj Malhotra",
-    bride: "Renuka Malhotra",
+    groom: "Gaurav",
+    bride: "Lagan",
     year: 2023,
     videoId: "aqf8TLBR0HI",
     place: "Varanasi",
